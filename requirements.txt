@@ -1,0 +1,14 @@
+beautifulsoup4==4.10.0
+certifi==2021.10.8
+charset-normalizer==2.0.7
+ddt==1.4.4
+et-xmlfile==1.1.0
+idna==3.3
+openpyxl==3.0.9
+pymssql==2.2.2
+PyMySQL==1.0.2
+PyYAML==6.0
+requests==2.26.0
+soupsieve==2.2.1
+urllib3==1.26.7
+xlrd==1.2.0
