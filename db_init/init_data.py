@@ -11,19 +11,15 @@ future_time = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(time.time()+10000
 
 # 初始化测试数据
 datas = {
-    # 发布会表数据
-    'sign_event':[
-        {'id':1,'name':'红米Pro发布会','`limit`':2000,'status':1,'address':'北京会展中心','start_time':future_time},
-        {'id':2,'name':'苹果iphon6发布会','`limit`':1000,'status':1,'address':'宝安体育馆','start_time':future_time},
-        {'id':3,'name':'华为荣耀8发布会','`limit`':2000,'status':0,'address':'深圳福田会展中心','start_time':future_time},
-        {'id':4,'name':'苹果iphon8发布会','`limit`':2000,'status':1,'address':'深圳湾体育中心','start_time':past_time},
-        {'id':5,'name':'小米5发布会','`limit`':2000,'status':1,'address':'北京国家会议中心','start_time':future_time},
+    # 表记录数据
+    '表名1':[
+        {'id': 1, 'name': 'Harry', '`limit`': 2000, 'status': 1, 'address': 'CQ', 'start_time': future_time},
+        # 字典形式维护记录数据
     ],
-    #　嘉宾表数据
-    'sign_guest':[
-        {'id':1,'realname':'Tom','phone':13511886601,'email':'alen@mail.com','sign':0,'event_id':1},
-        {'id':2,'realname':'Jason','phone':13511886602,'email':'sign@mail.com','sign':1,'event_id':1},
-        {'id':3,'realname':'Jams','phone':13511886603,'email':'tom@mail.com','sign':0,'event_id':5},
+    # 表记录数据
+    '表名2':[
+        {'id': 1, 'name': 'Tom Cat', 'phone': 13511886601, 'email': 'alen@mail.com', 'sign': 0, 'event_id': 1},
+        # 字典形式维护记录数据
     ],
 }
 

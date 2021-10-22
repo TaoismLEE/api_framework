@@ -207,3 +207,19 @@
 [2021-10-15 16:53:07] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
 [2021-10-15 16:53:07] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "GET /api/ver2.0/dms/qrrProject/loadProject HTTP/1.1" 200 None
 [2021-10-15 16:53:08] send_email.py [line:221] [INFO]  Pass to send email!
+[2021-10-20 11:34:17] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 11:34:18] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "POST /api/ver2.0/auth/oauth/token HTTP/1.1" 200 None
+[2021-10-20 11:34:18] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 11:34:18] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "GET /api/ver2.0/dms/qrrProject/loadProject HTTP/1.1" 200 None
+[2021-10-20 11:34:19] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 11:34:19] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "POST /api/ver2.0/auth/oauth/token HTTP/1.1" 200 None
+[2021-10-20 11:34:19] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 11:34:19] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "GET /api/ver2.0/dms/qrrProject/loadProject HTTP/1.1" 400 159
+[2021-10-20 14:48:25] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 14:48:25] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "POST /api/ver2.0/auth/oauth/token HTTP/1.1" 200 None
+[2021-10-20 14:48:25] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 14:48:26] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "GET /api/ver2.0/dms/qrrProject/loadProject HTTP/1.1" 200 None
+[2021-10-20 14:48:26] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 14:48:26] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "POST /api/ver2.0/auth/oauth/token HTTP/1.1" 200 None
+[2021-10-20 14:48:26] connectionpool.py [line:227] [DEBUG]  Starting new HTTP connection (1): 10.172.64.202:8888
+[2021-10-20 14:48:26] connectionpool.py [line:452] [DEBUG]  http://10.172.64.202:8888 "GET /api/ver2.0/dms/qrrProject/loadProject HTTP/1.1" 400 159
