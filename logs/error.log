@@ -1,1 +1,0 @@
-[2021-10-15 11:00:43] send_email.py [line:224] [ERROR]  (452, b'4.3.1 Insufficient system resources (UsedVersionBuckets[F:\\TransportRoles\\data\\Queue\\mail.que])')
