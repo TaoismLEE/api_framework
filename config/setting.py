@@ -14,17 +14,17 @@ TEST_REPORT = os.path.join(PROJECT_PATH, "report")
 
 
 # outlook email config
-MAIL_HOST = "shintsmtp.deloitte.com.cn"
+MAIL_HOST = ""
 MAIL_PORT = 25
 MAIL_USER = ""
 MAIL_PWD = ""
-MAIL_SENDER = "yuliy@deloitte.com.cn"
+MAIL_SENDER = ""
 
 # mail receivers
-MAIL_RECEIVERS = ["yuliy@deloitte.com.cn"]
-# MAIL_RECEIVERS = ["yuliy@deloitte.com.cn",
-#                   "erizhu@deloitte.com.cn"]
+MAIL_RECEIVERS = ["xxxx@xxxx"]
+# MAIL_RECEIVERS = ["xxxx@xxxx",
+#                   "xxxx@dxxxx"]
 
 # mail subject
-MAIL_SUBJECT = "eDMS项目 - 接口自动化测试结果"
+MAIL_SUBJECT = "xxxx项目 - 接口自动化测试结果"
 
