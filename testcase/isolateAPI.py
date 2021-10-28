@@ -31,7 +31,7 @@ class Isolate_Demo_API(unittest.TestCase):
         print("请求参数: {0}".format(data['params']))
         print("post请求body类型为：{0} ,body内容为：{1}".format(data['type'], data['body']))
         # 发送请求
-        re = SendRequests().sendRequests(self.s, data)
+        re = SendRequests().send_request(self.s, data)
         # 获取服务端返回的值
         self.result = re.json()
         print("页面返回信息：%s" % re.content.decode("utf-8"))
